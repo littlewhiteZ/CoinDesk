@@ -7,7 +7,7 @@
 `GET /api/coindesk/converted`
 
 ### 3. 幣別對應表 API
-- `GET /api/currency-mapping`：查詢所有
-- `POST /api/currency-mapping`：新增
-- `PUT /api/currency-mapping/{id}`：更新
-- `DELETE /api/currency-mapping/{id}`：刪除
+- `GET /api/currency`：查詢所有
+- `POST /api/currency`：新增
+- `PUT /api/currency/{id}`：更新
+- `DELETE /api/currency/{id}`：刪除
