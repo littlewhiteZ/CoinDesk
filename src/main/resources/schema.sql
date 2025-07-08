@@ -1,0 +1,5 @@
+CREATE TABLE currency_mapping (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    code VARCHAR(10) UNIQUE NOT NULL,
+    name_zh VARCHAR(255) NOT NULL
+);
